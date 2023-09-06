@@ -1,2 +1,3 @@
-# CoctailMixer
-CoctailMixer app (nodeJS, Axios, CoctailDB)
+# CoctailMixerAPP
+About app: App is simply generating coctails using CoctailsDB API.
+Used technology: nodeJS, Express, Axios
