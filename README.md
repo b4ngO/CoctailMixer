@@ -1,5 +1,4 @@
 # CoctailMixerAPP
-<br>
 <h2>About app:</h2>
 <p>App is simply generating coctails using CoctailsDB API.</p>
 <br>
