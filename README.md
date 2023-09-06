@@ -1,3 +1,3 @@
 # CoctailMixerAPP
-About app: App is simply generating coctails using CoctailsDB API.
+About app: App is simply generating coctails using CoctailsDB API. <br>
 Used technology: nodeJS, Express, Axios
