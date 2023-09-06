@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+}
+
+.cstm-height-card .card-img-top {
+    height: 100px;
+    object-fit: cover;
+  }
+
+

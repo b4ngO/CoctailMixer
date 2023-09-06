@@ -1,0 +1,36 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container">
+    <div class="position-relative text-center text-muted col d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img src="<%= picture %>" class="card-img-top">
+            <div class="card-body">
+              <h2> <%= name %> </h2>
+              <hr>
+              <h4>Category</h4>
+              <p class="card-text"> <%= category %> </p>
+              <hr>
+              <h4>Recipe</h4>
+              <p class="card-text"> <%= recipe %> </p>
+              <hr>
+              <h4>Ingredients</h4>
+                
+                <% for(let i=1;i<=15;i++) { %>
+                    <% let ingredient = content.drinks[0][`strIngredient${i}`] %>
+                    <% let measure = content.drinks[0][`strMeasure${i}`] %>
+                    <% if(ingredient !== null){ %>
+                        <p class="card-text"><%=ingredient + " -- " + measure%></p>
+                        <%} %>
+                <%} %>
+               
+            
+
+  </div>
+  
+            </div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
